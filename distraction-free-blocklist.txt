@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Title: Feed Blocker - Stop Endless Scrolling
+! Title: Xobust's Distraction Free Blocklist - Stop Endless Scrolling
 ! Description: Blocks social media feeds and infinite scroll content to help reduce screen time and improve productivity
-! Homepage: https://github.com/yourusername/feedBlocker
+! Homepage: https://github.com/xobust/distraction-free-blocklist
 ! License: MIT
 ! Version: 1.0.0
-! TimeUpdated: 2024-01-01T00:00:00+00:00
+! TimeUpdated: 2025-07-12T00:00:00+00:00
 ! Expires: 7 days
 
 ! ============================================================================
@@ -34,6 +34,7 @@ twitter.com##div[data-testid="tweetText"]
 twitter.com##div[data-testid="tweetButtonInline"]
 
 ! Reddit Feed
+reddit.com##shreddit-post[view-context="AggregateFeed"]
 reddit.com##div[data-testid="post-container"]
 reddit.com##div[data-testid="post"]
 reddit.com##div[data-testid="post-content"]
@@ -70,18 +71,6 @@ snapchat.com##div[data-testid="story-item"]
 snapchat.com##div[data-testid="story-container"]
 snapchat.com##div[data-testid="story-list"]
 
-! ============================================================================
-! INFINITE SCROLL BLOCKING
-! ============================================================================
-
-! Generic infinite scroll patterns
-*##div[class*="infinite"]
-*##div[class*="feed"]
-*##div[class*="stream"]
-*##div[class*="timeline"]
-*##div[class*="wall"]
-*##div[class*="news-feed"]
-*##div[class*="content-feed"]
 
 ! ============================================================================
 ! PRODUCTIVITY ENHANCEMENTS

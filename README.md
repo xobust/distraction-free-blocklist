@@ -1,4 +1,4 @@
-# Feed Blocker - Stop Endless Scrolling
+# Distraction Free Blocklist - Stop Endless Scrolling
 
 A uBlock Origin filter list designed to block social media feeds and infinite scroll content to help reduce screen time and improve productivity.
 
@@ -7,6 +7,7 @@ A uBlock Origin filter list designed to block social media feeds and infinite sc
 This filter list targets the addictive feed interfaces of popular social media platforms while preserving access to important features like:
 
 - Direct messages
+- Single post view with comments
 - Search functionality
 - Profile pages
 - Settings and navigation
@@ -32,13 +33,13 @@ This filter list targets the addictive feed interfaces of popular social media p
 3. Go to the "Filter lists" tab
 4. Click "Import" and paste this URL:
    ```
-   https://raw.githubusercontent.com/yourusername/feedBlocker/main/feed-blocker.txt
+   https://raw.githubusercontent.com/xobust/distraction-free-blocklist/main/distraction-free-blocklist.txt
    ```
 5. Click "Apply changes"
 
 ### Method 2: Manual Import
 
-1. Download the `feed-blocker.txt` file from this repository
+1. Download the `distraction-free-blocklist.txt` file from this repository
 2. Open uBlock Origin settings
 3. Go to the "Filter lists" tab
 4. Click "Import" and select the downloaded file
@@ -50,13 +51,13 @@ This filter list targets the addictive feed interfaces of popular social media p
 2. Go to the "Filter lists" tab
 3. Scroll down to "Custom" section
 4. Click the "+" button
-5. Add the filter list URL and give it a name like "Feed Blocker"
+5. Add the filter list URL and give it a name like "Distraction Free Blocklist"
 
 ## ⚙️ Configuration
 
 ### Customization
 
-You can customize the filter list by editing `feed-blocker.txt`:
+You can customize the filter list by editing `distraction-free-blocklist.txt`:
 
 - **Remove specific platforms**: Delete the sections for platforms you want to keep
 - **Add new platforms**: Follow the existing pattern to add new social media sites
