@@ -119,8 +119,42 @@ Contributions are welcome! Please:
 
 1. Fork the repository
 2. Create a feature branch
-3. Test your changes thoroughly
-4. Submit a pull request
+3. Install development dependencies: `npm install`
+4. Test your changes thoroughly: `npm test`
+5. Submit a pull request
+
+### Development Setup
+
+This project uses aglint for filter list validation. To set up the development environment:
+
+```bash
+# Install aglint globally
+npm install -g aglint
+
+# Or install as a dev dependency
+npm install
+
+# Validate the filter list
+npm run validate
+
+# Run all tests
+npm test
+```
+
+### Pre-commit Hook
+
+A pre-commit hook is included that automatically validates filter list syntax before each commit. The hook will:
+
+- Check if aglint is installed
+- Validate all `.txt` files in the repository
+- Prevent commits if syntax errors are found
+- Provide helpful error messages
+
+To skip validation (not recommended):
+
+```bash
+git commit --no-verify -m "your message"
+```
 
 ### Adding New Platforms
 

@@ -1,0 +1,36 @@
+{
+  "name": "distraction-free-blocklist",
+  "version": "1.0.0",
+  "description": "A uBlock Origin filter list designed to block social media feeds and infinite scroll content to help reduce screen time and improve productivity",
+  "main": "distraction-free-blocklist.txt",
+  "scripts": {
+    "validate": "aglint distraction-free-blocklist.txt",
+    "test": "aglint *.txt",
+    "pre-commit": "aglint distraction-free-blocklist.txt"
+  },
+  "keywords": [
+    "ublock-origin",
+    "filter-list",
+    "ad-blocker",
+    "productivity",
+    "digital-wellness",
+    "social-media",
+    "distraction-free"
+  ],
+  "author": "xobust",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xobust/distraction-free-blocklist.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xobust/distraction-free-blocklist/issues"
+  },
+  "homepage": "https://github.com/xobust/distraction-free-blocklist#readme",
+  "devDependencies": {
+    "aglint": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

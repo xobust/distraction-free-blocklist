@@ -26,8 +26,11 @@ logs/
 *.bak
 *.backup
 
-# Node modules (if any tools are added later)
+# Node modules
 node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
 # Environment files
 .env
