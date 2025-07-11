@@ -27,11 +27,12 @@ instagram.com##div[data-testid="post"]
 instagram.com##div[data-testid="post-container"]:not([data-testid="suggested-users"])
 
 ! Twitter/X Feed
-twitter.com##article[data-testid="tweet"]
-twitter.com##div[data-testid="cellInnerDiv"]
-twitter.com##div[data-testid="primaryColumn"] div[data-testid="tweet"]
-twitter.com##div[data-testid="tweetText"]
-twitter.com##div[data-testid="tweetButtonInline"]
+x.com##article[data-testid="tweet"]
+x.com##div[data-testid="cellInnerDiv"]
+x.com##div[data-testid="primaryColumn"] div[data-testid="tweet"]
+x.com##div[data-testid="tweetText"]
+x.com##div[data-testid="tweetButtonInline"]
+
 
 ! Reddit Feed
 reddit.com##shreddit-post[view-context="AggregateFeed"]
@@ -80,7 +81,7 @@ snapchat.com##div[data-testid="story-list"]
 facebook.com#@#div[data-testid="left_nav_section"]
 facebook.com#@#div[data-testid="right_column"]
 instagram.com#@#div[data-testid="direct-message"]
-twitter.com#@#div[data-testid="sidebarColumn"]
+x.com#@#div[data-testid="sidebarColumn"]
 reddit.com#@#div[data-testid="subreddit-header"]
 youtube.com#@#div[id="secondary"]
 
@@ -91,17 +92,17 @@ youtube.com#@#div[id="secondary"]
 ! Allow search results
 facebook.com#@#div[data-testid="search-results"]
 instagram.com#@#div[data-testid="search-results"]
-twitter.com#@#div[data-testid="search-results"]
+x.com#@#div[data-testid="search-results"]
 reddit.com#@#div[data-testid="search-results"]
 
 ! Allow profile pages
 facebook.com#@#div[data-testid="profile-page"]
 instagram.com#@#div[data-testid="profile-page"]
-twitter.com#@#div[data-testid="profile-page"]
+x.com#@#div[data-testid="profile-page"]
 reddit.com#@#div[data-testid="profile-page"]
 
 ! Allow direct messages
 facebook.com#@#div[data-testid="messaging"]
 instagram.com#@#div[data-testid="direct-message"]
-twitter.com#@#div[data-testid="direct-message"]
+x.com#@#div[data-testid="direct-message"]
 reddit.com#@#div[data-testid="direct-message"]
