@@ -26,9 +26,25 @@ This filter list targets the addictive feed interfaces of popular social media p
 
 ## 🚀 Installation
 
+### Prerequisites
+
+**Recommended Setup:**
+
+- **Browser**: Firefox (best privacy and uBlock Origin support)
+- **Extension**: uBlock Origin (not uBlock - the original uBlock Origin by gorhill)
+
+**Why Firefox + uBlock Origin?**
+
+- Firefox has the best privacy features and extension support
+- uBlock Origin is the most powerful and actively maintained ad blocker
+- Better performance and fewer conflicts with other extensions
+- Regular updates and strong community support
+
+**⚠️ Important**: Make sure you install "uBlock Origin" (by gorhill), not "uBlock" (different extension). The correct extension has "Origin" in the name.
+
 ### Method 1: Direct Import (Recommended)
 
-1. Install [uBlock Origin](https://github.com/gorhill/uBlock) in your browser
+1. Install [uBlock Origin](https://github.com/gorhill/uBlock) in Firefox (recommended) or your preferred browser
 2. Open uBlock Origin settings
 3. Go to the "Filter lists" tab
 4. Click "Import" and paste this URL:
