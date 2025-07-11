@@ -184,6 +184,11 @@ This filter list helps users:
 - Maintain intentional social media use
 - Preserve important communication features
 
+## 🛠️ Other Recommended Software
+
+- **Distraction Free YouTube** - Configurabele Browser extension that removes recommendations and comments
+- **ScreenZen** - App blocking and screen time management across devices
+
 ## 🔄 Updates
 
 The filter list is updated regularly to:
